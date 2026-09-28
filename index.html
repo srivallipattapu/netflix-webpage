@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">NETFLIX</div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#trending">Trending</a>
+            <a href="#movies">Movies</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Search movies...">
+            <button onclick="searchMovie()">Search</button>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Stranger Things</h1>
+
+            <p>
+                When a young boy disappears, his friends discover
+                mysterious secrets and strange supernatural events.
+            </p>
+
+            <button class="play-btn" onclick="playMovie()">▶ Play</button>
+            <button class="info-btn" onclick="showInfo()">ⓘ More Info</button>
+        </div>
+    </section>
+
+
+    <!-- Trending Movies -->
+    <section id="trending" class="movie-section">
+        <h2>Trending Now</h2>
+
+        <div class="movie-container">
+
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg">
+                <h3>Deadpool & Wolverine</h3>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg">
+                <h3>Gladiator II</h3>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg">
+                <h3>The Shawshank Redemption</h3>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg">
+                <h3>The Green Mile</h3>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Popular Movies -->
+    <section id="movies" class="movie-section">
+        <h2>Popular Movies</h2>
+
+        <div class="movie-container">
+
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg">
+                <h3>Inception</h3>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg">
+                <h3>Avengers</h3>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/w500/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg">
+                <h3>Wonder Woman</h3>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/w500/6UomQW0mE8U0xjYvKj5q2zF3nFf.jpg">
+                <h3>Interstellar</h3>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>About Netflix</h2>
+        <p>
+            Netflix is a popular entertainment platform where users
+            can watch movies, TV shows and web series online.
+        </p>
+    </section>
+
+
+    <footer>
+    <p>© 2026 Netflix Clone | College Project</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+</body>
+</html>
+
